@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../data/memories.dart';
+import '../theme/app_colors.dart';
 import '../widgets/responsive_content.dart';
 
 class LetterPage extends StatelessWidget {
@@ -23,12 +24,12 @@ class LetterPage extends StatelessWidget {
                     MediaQuery.sizeOf(context).width < 360 ? 18 : 24,
                   ),
                   decoration: BoxDecoration(
-                    color: const Color(0xFF101015),
+                    color: AppColors.surface,
                     borderRadius: BorderRadius.circular(8),
-                    border: Border.all(color: Colors.white10),
+                    border: Border.all(color: AppColors.border),
                     boxShadow: const [
                       BoxShadow(
-                        color: Color(0x55000000),
+                        color: Color(0x1AD8A7B1),
                         blurRadius: 26,
                         offset: Offset(0, 16),
                       ),
@@ -42,14 +43,14 @@ class LetterPage extends StatelessWidget {
                         style: Theme.of(context).textTheme.headlineSmall
                             ?.copyWith(
                               fontWeight: FontWeight.w800,
-                              color: Colors.white,
+                              color: AppColors.secondary,
                             ),
                       ),
                       const SizedBox(height: 18),
                       Text(
                         loveLetter,
                         style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                          color: const Color(0xFFECECF1),
+                          color: AppColors.text,
                           fontSize: 18,
                           height: 1.65,
                         ),

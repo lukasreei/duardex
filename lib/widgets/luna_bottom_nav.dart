@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../theme/app_colors.dart';
+
 class LunaBottomNav extends StatelessWidget {
   const LunaBottomNav({
     super.key,
@@ -16,8 +18,8 @@ class LunaBottomNav extends StatelessWidget {
       selectedIndex: currentIndex,
       onDestinationSelected: onChanged,
       height: 68,
-      backgroundColor: const Color(0xFF0B0B10),
-      indicatorColor: const Color(0x33FF6B9A),
+      backgroundColor: AppColors.surface,
+      indicatorColor: AppColors.highlight,
       destinations: const [
         NavigationDestination(
           icon: Icon(Icons.home_outlined),

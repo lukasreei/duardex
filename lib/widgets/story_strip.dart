@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../models/memory_post.dart';
 import '../pages/story_view_page.dart';
+import '../theme/app_colors.dart';
 
 class StoryStrip extends StatelessWidget {
   const StoryStrip({super.key, required this.memories});
@@ -58,14 +59,14 @@ class _StoryBubble extends StatelessWidget {
                 shape: BoxShape.circle,
                 gradient: const LinearGradient(
                   colors: [
-                    Color(0xFFFF6B9A),
-                    Color(0xFFFFD3DF),
-                    Color(0xFF8E8DFF),
+                    AppColors.primary,
+                    AppColors.highlight,
+                    AppColors.secondary,
                   ],
                 ),
                 boxShadow: [
                   BoxShadow(
-                    color: const Color(0xFFFF6B9A).withValues(alpha: 0.24),
+                    color: AppColors.primary.withValues(alpha: 0.24),
                     blurRadius: 16,
                     offset: const Offset(0, 8),
                   ),
@@ -74,7 +75,7 @@ class _StoryBubble extends StatelessWidget {
               child: Container(
                 padding: const EdgeInsets.all(3),
                 decoration: const BoxDecoration(
-                  color: Color(0xFF07070A),
+                  color: AppColors.background,
                   shape: BoxShape.circle,
                 ),
                 child: Hero(
@@ -92,7 +93,7 @@ class _StoryBubble extends StatelessWidget {
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
               textAlign: TextAlign.center,
-              style: const TextStyle(fontSize: 12, color: Colors.white70),
+              style: const TextStyle(fontSize: 12, color: AppColors.mutedText),
             ),
           ],
         ),

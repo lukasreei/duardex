@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../models/memory_post.dart';
+import '../theme/app_colors.dart';
 
 class StoryViewPage extends StatelessWidget {
   const StoryViewPage({super.key, required this.memory});
@@ -57,7 +58,7 @@ class StoryViewPage extends StatelessWidget {
                                           minHeight: 3,
                                           backgroundColor: Colors.white24,
                                           valueColor: AlwaysStoppedAnimation(
-                                            Color(0xFFFF6B9A),
+                                            AppColors.primary,
                                           ),
                                         ),
                                       ),
@@ -85,7 +86,7 @@ class StoryViewPage extends StatelessWidget {
                                 Text(
                                   memory.date,
                                   style: const TextStyle(
-                                    color: Color(0xFFFFC1D2),
+                                    color: AppColors.highlight,
                                     fontWeight: FontWeight.w700,
                                   ),
                                 ),

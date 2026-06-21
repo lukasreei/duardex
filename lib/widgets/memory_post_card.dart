@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
 import '../models/memory_post.dart';
+import '../theme/app_colors.dart';
 
 class MemoryPostCard extends StatefulWidget {
   const MemoryPostCard({super.key, required this.memory});
@@ -23,13 +24,13 @@ class _MemoryPostCardState extends State<MemoryPostCard> {
       borderRadius: BorderRadius.circular(18),
       child: DecoratedBox(
         decoration: BoxDecoration(
-          color: const Color(0xFF111116),
+          color: AppColors.surface,
           border: Border.all(
-            color: memory.isVideo ? const Color(0x55FF6B9A) : Colors.white10,
+            color: memory.isVideo ? AppColors.primary : AppColors.border,
           ),
           boxShadow: const [
             BoxShadow(
-              color: Color(0x66000000),
+              color: Color(0x1AD8A7B1),
               blurRadius: 24,
               offset: Offset(0, 14),
             ),
@@ -60,7 +61,7 @@ class _MemoryPostCardState extends State<MemoryPostCard> {
                         Text(
                           memory.date,
                           style: const TextStyle(
-                            color: Colors.white54,
+                            color: AppColors.mutedText,
                             fontSize: 12,
                           ),
                         ),
@@ -74,9 +75,9 @@ class _MemoryPostCardState extends State<MemoryPostCard> {
                         vertical: 5,
                       ),
                       decoration: BoxDecoration(
-                        color: const Color(0x22FF6B9A),
+                        color: AppColors.highlight,
                         borderRadius: BorderRadius.circular(20),
-                        border: Border.all(color: const Color(0x55FF6B9A)),
+                        border: Border.all(color: AppColors.primary),
                       ),
                       child: const Row(
                         mainAxisSize: MainAxisSize.min,
@@ -84,13 +85,13 @@ class _MemoryPostCardState extends State<MemoryPostCard> {
                           Icon(
                             Icons.play_circle_fill_rounded,
                             size: 14,
-                            color: Color(0xFFFF6B9A),
+                            color: AppColors.secondary,
                           ),
                           SizedBox(width: 4),
                           Text(
                             'VIDEO',
                             style: TextStyle(
-                              color: Color(0xFFFFA2BE),
+                              color: AppColors.secondary,
                               fontSize: 10,
                               fontWeight: FontWeight.w900,
                               letterSpacing: 0.8,
@@ -101,7 +102,10 @@ class _MemoryPostCardState extends State<MemoryPostCard> {
                     ),
                     const SizedBox(width: 8),
                   ],
-                  const Icon(Icons.more_horiz_rounded, color: Colors.white70),
+                  const Icon(
+                    Icons.more_horiz_rounded,
+                    color: AppColors.mutedText,
+                  ),
                 ],
               ),
             ),
@@ -134,9 +138,7 @@ class _MemoryPostCardState extends State<MemoryPostCard> {
                                 ? Icons.favorite_rounded
                                 : Icons.favorite_border_rounded,
                             key: ValueKey(_liked),
-                            color: _liked
-                                ? const Color(0xFFFF6B9A)
-                                : Colors.white,
+                            color: _liked ? AppColors.primary : AppColors.text,
                           ),
                         ),
                       ),
@@ -158,10 +160,7 @@ class _MemoryPostCardState extends State<MemoryPostCard> {
                   const SizedBox(height: 6),
                   Text(
                     memory.description,
-                    style: const TextStyle(
-                      color: Color(0xFFE5E5EA),
-                      fontSize: 14,
-                    ),
+                    style: const TextStyle(color: AppColors.text, fontSize: 14),
                   ),
                 ],
               ),
@@ -263,7 +262,7 @@ class _MemoryVideoState extends State<_MemoryVideo> {
                   gradient: LinearGradient(
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
-                    colors: [Color(0xFF24151D), Color(0xFF050507)],
+                    colors: [AppColors.secondary, AppColors.text],
                   ),
                 ),
               ),
@@ -303,7 +302,7 @@ class _MemoryVideoState extends State<_MemoryVideo> {
                     children: [
                       Icon(
                         Icons.videocam_rounded,
-                        color: Color(0xFFFF8AAF),
+                        color: AppColors.highlight,
                         size: 15,
                       ),
                       SizedBox(width: 5),
@@ -350,12 +349,12 @@ class _MemoryVideoState extends State<_MemoryVideo> {
                         width: 76,
                         height: 76,
                         decoration: BoxDecoration(
-                          color: const Color(0xDDFF6B9A),
+                          color: AppColors.primary,
                           shape: BoxShape.circle,
                           border: Border.all(color: Colors.white70, width: 2),
                           boxShadow: const [
                             BoxShadow(
-                              color: Color(0x88FF3D7A),
+                              color: Color(0x668B6F8E),
                               blurRadius: 28,
                               spreadRadius: 2,
                             ),
@@ -394,7 +393,7 @@ class _MemoryVideoState extends State<_MemoryVideo> {
                         allowScrubbing: true,
                         padding: EdgeInsets.zero,
                         colors: const VideoProgressColors(
-                          playedColor: Color(0xFFFF6B9A),
+                          playedColor: AppColors.primary,
                           bufferedColor: Colors.white38,
                           backgroundColor: Colors.white24,
                         ),

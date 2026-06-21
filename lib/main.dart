@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'pages/home_page.dart';
+import 'theme/app_colors.dart';
 
 void main() {
   runApp(const LunaApp());
@@ -16,13 +17,15 @@ class LunaApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
-        brightness: Brightness.dark,
-        scaffoldBackgroundColor: const Color(0xFF07070A),
+        brightness: Brightness.light,
+        scaffoldBackgroundColor: AppColors.background,
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFFFF6B9A),
-          brightness: Brightness.dark,
-          primary: const Color(0xFFFF6B9A),
-          surface: const Color(0xFF111116),
+          seedColor: AppColors.primary,
+          brightness: Brightness.light,
+          primary: AppColors.primary,
+          secondary: AppColors.secondary,
+          surface: AppColors.surface,
+          onSurface: AppColors.text,
         ),
         textTheme: const TextTheme(
           headlineLarge: TextStyle(fontWeight: FontWeight.w700),
@@ -33,8 +36,8 @@ class LunaApp extends StatelessWidget {
           bodyLarge: TextStyle(height: 1.5),
         ),
         appBarTheme: const AppBarTheme(
-          backgroundColor: Color(0xFF07070A),
-          foregroundColor: Colors.white,
+          backgroundColor: AppColors.background,
+          foregroundColor: AppColors.text,
           elevation: 0,
           centerTitle: false,
         ),

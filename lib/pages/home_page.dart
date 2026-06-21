@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../data/memories.dart';
+import '../theme/app_colors.dart';
 import '../widgets/luna_bottom_nav.dart';
 import '../widgets/memory_post_card.dart';
 import '../widgets/responsive_content.dart';
@@ -45,8 +46,8 @@ class _HomePageState extends State<HomePage> {
                         onDestinationSelected: (index) =>
                             setState(() => _currentIndex = index),
                         labelType: NavigationRailLabelType.all,
-                        backgroundColor: const Color(0xFF0B0B10),
-                        indicatorColor: const Color(0x33FF6B9A),
+                        backgroundColor: AppColors.surface,
+                        indicatorColor: AppColors.highlight,
                         destinations: const [
                           NavigationRailDestination(
                             icon: Icon(Icons.home_outlined),
@@ -66,7 +67,7 @@ class _HomePageState extends State<HomePage> {
                         ],
                       ),
                     ),
-                    const VerticalDivider(width: 1, color: Colors.white10),
+                    const VerticalDivider(width: 1, color: AppColors.border),
                     Expanded(child: page),
                   ],
                 )
@@ -107,7 +108,7 @@ class _FeedPage extends StatelessWidget {
               actions: const [
                 Padding(
                   padding: EdgeInsets.only(right: 16),
-                  child: Icon(Icons.favorite_rounded, color: Color(0xFFFF6B9A)),
+                  child: Icon(Icons.favorite_rounded, color: AppColors.primary),
                 ),
               ],
             ),

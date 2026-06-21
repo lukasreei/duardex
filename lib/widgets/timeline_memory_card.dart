@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../models/memory_post.dart';
+import '../theme/app_colors.dart';
 
 class TimelineMemoryCard extends StatelessWidget {
   const TimelineMemoryCard({
@@ -27,7 +28,7 @@ class TimelineMemoryCard extends StatelessWidget {
                 Expanded(
                   child: Container(
                     width: 2,
-                    color: isFirst ? Colors.transparent : Colors.white12,
+                    color: isFirst ? Colors.transparent : AppColors.highlight,
                   ),
                 ),
                 Container(
@@ -35,14 +36,14 @@ class TimelineMemoryCard extends StatelessWidget {
                   height: 15,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: const Color(0xFFFF6B9A),
-                    border: Border.all(color: Colors.white, width: 2),
+                    color: AppColors.primary,
+                    border: Border.all(color: AppColors.background, width: 2),
                   ),
                 ),
                 Expanded(
                   child: Container(
                     width: 2,
-                    color: isLast ? Colors.transparent : Colors.white12,
+                    color: isLast ? Colors.transparent : AppColors.highlight,
                   ),
                 ),
               ],
@@ -70,7 +71,7 @@ class TimelineMemoryCard extends StatelessWidget {
                       Text(
                         memory.date,
                         style: const TextStyle(
-                          color: Color(0xFFFFB7CB),
+                          color: AppColors.secondary,
                           fontWeight: FontWeight.w700,
                           fontSize: 12,
                         ),
@@ -88,7 +89,7 @@ class TimelineMemoryCard extends StatelessWidget {
                         memory.description,
                         maxLines: compact ? 5 : 3,
                         overflow: TextOverflow.ellipsis,
-                        style: const TextStyle(color: Colors.white70),
+                        style: const TextStyle(color: AppColors.mutedText),
                       ),
                     ],
                   );
@@ -96,9 +97,9 @@ class TimelineMemoryCard extends StatelessWidget {
                   return Container(
                     padding: const EdgeInsets.all(12),
                     decoration: BoxDecoration(
-                      color: const Color(0xFF111116),
+                      color: AppColors.surface,
                       borderRadius: BorderRadius.circular(8),
-                      border: Border.all(color: Colors.white10),
+                      border: Border.all(color: AppColors.border),
                     ),
                     child: compact
                         ? Column(
