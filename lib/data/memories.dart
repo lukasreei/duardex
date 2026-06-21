@@ -16,6 +16,12 @@ const List<MemoryPost> memories = [
         'Com o tempo, fomos nos aproximando e do nada estavamos fazendo call aleatoria para falar de qualquer coisa, geralmente "ridiculaizar" williams e sua perseguição',
   ),
   MemoryPost(
+    imagePath: 'assets/bracos.jpeg',
+    date: '04 de junho de 2024',
+    title: 'muito interessante a palestra',
+    description: 'clarice apresentando a palestra, voce correndo de williams e todos querendo matar o williams',
+  ),
+  MemoryPost(
     imagePath: 'assets/onibusubtech.jpeg',
     date: '11 de julho de 2024',
     title: 'coragem e confianca em min kkkkkkk',
@@ -28,6 +34,13 @@ const List<MemoryPost> memories = [
     description: 'lhe fiz o favor de apresentar o melhor milkshake de morango da sua vida',
   ),
   MemoryPost(
+    imagePath: 'assets/memories/foto5.png',
+    date: '11/06/2024',
+    title: 'Ate hoje',
+    description:
+    'Tudo que vivemos trouxe a gente ate aqui. E aqui ainda parece um comeco bonito.',
+  ),
+  MemoryPost(
     imagePath: 'assets/memories/foto3.png',
     date: '19/07/2024',
     title: 'busao rumo a jampa',
@@ -37,16 +50,15 @@ const List<MemoryPost> memories = [
   MemoryPost(
     imagePath: 'assets/memories/foto4.png',
     date: '02/11/2024',
-    title: 'Memoria quente',
+    title: 'uniesp',
     description:
         'Tem lembranca que parece luz acesa: mesmo quando a noite chega, ela continua ali, quieta, cuidando de tudo.',
   ),
   MemoryPost(
-    imagePath: 'assets/memories/foto5.png',
-    date: '11/06/2024',
-    title: 'Ate hoje',
-    description:
-        'Tudo que vivemos trouxe a gente ate aqui. E aqui ainda parece um comeco bonito.',
+    imagePath: 'assets/flutter.png',
+    date: '02/11/2024',
+    title: 'tinha que tirar uma boa',
+    description: 'boyer, tem momentos que nem conseguimos explicar, esse dia teve varios desses momentos..',
   ),
   MemoryPost(
     imagePath: 'assets/memories/image.png',
@@ -67,6 +79,18 @@ const List<MemoryPost> memories = [
     date: '15 de julho de 2025',
     title: 'Acaizin',
     description: 'boy, vamo tomar açai dnv, nmrl kkkk e tem os audios de byanka que nesse dia mds kkkkk',
+  ),
+  MemoryPost(
+    imagePath: 'assets/sushiemksa.jpeg',
+    date: '18 de julho de 2025',
+    title: 'sushi de ksa naquele pique aqls coisa',
+    description: 'acho que foi nesse dia que minha vó decidiu te amar.',
+  ),
+  MemoryPost(
+    imagePath: 'assets/shushiemksa2.jpeg',
+    date: '18 de julho de 2025',
+    title: 'marcando',
+    description: 'particulamente, gosto dessa foto',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_1.png',
@@ -115,11 +139,11 @@ const List<MemoryPost> memories = [
     description: 'imprescritivel',
   ),
   MemoryPost(
-    imagePath: 'assets/memories/img_3.png',
-    date: '08/08/2025',
-    title: 'dezembro nosso',
+    imagePath: 'assets/1do12.jpeg',
+    date: '01 de dezembro de 2025',
+    title: 'Te Amo  loirinha',
     description:
-        'Mais um capitulo simples e bonito, desses que a memoria escolhe guardar com cuidado.',
+    'Talvez eu tenha entregado as flores pelo motivo errado. Elas foram um pedido de desculpas, mas eu gostaria que tivessem sido entregues apenas como uma demonstração de amor. Não me arrependo do gesto; só queria que ele tivesse acontecido em circunstâncias diferentes, como um simples "eu te a..."',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_4.png',
@@ -171,30 +195,6 @@ const List<MemoryPost> memories = [
     date: '09/06/2026',
     title: 'Ainda aqui',
     description: 'boyerrr, akakak gostei dessa, alias o dia foi bommm',
-  ),
-  MemoryPost(
-    imagePath: 'assets/bracos.jpeg',
-    date: 'Nossa historia',
-    title: 'Do seu jeitinho',
-    description: 'Mais um registro espontaneo que merecia ficar aqui.',
-  ),
-  MemoryPost(
-    imagePath: 'assets/flutter.png',
-    date: 'Nossa historia',
-    title: 'Nos dois',
-    description: 'Um sorriso, uma foto e mais uma memoria boa.',
-  ),
-  MemoryPost(
-    imagePath: 'assets/shushiemksa2.jpeg',
-    date: 'Nossa historia',
-    title: 'Sushi no MKSA',
-    description: 'Uma foto nossa para lembrar de mais um dia bom.',
-  ),
-  MemoryPost(
-    imagePath: 'assets/sushiemksa.jpeg',
-    date: 'Nossa historia',
-    title: 'Nosso sushi',
-    description: 'Comida boa, companhia melhor ainda.',
   ),
 ];
 
