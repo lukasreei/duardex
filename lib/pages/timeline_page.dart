@@ -13,23 +13,23 @@ class TimelinePage extends StatelessWidget {
       child: ResponsiveContent(
         maxWidth: 820,
         child: CustomScrollView(
-        physics: const BouncingScrollPhysics(),
-        slivers: [
-          const SliverAppBar(pinned: true, title: Text('Linha do tempo')),
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(18, 18, 18, 32),
-            sliver: SliverList.builder(
-              itemCount: memories.length,
-              itemBuilder: (context, index) {
-                return TimelineMemoryCard(
-                  memory: memories[index],
-                  isFirst: index == 0,
-                  isLast: index == memories.length - 1,
-                );
-              },
+          physics: const BouncingScrollPhysics(),
+          slivers: [
+            const SliverAppBar(pinned: true, title: Text('Linha do tempo')),
+            SliverPadding(
+              padding: const EdgeInsets.fromLTRB(18, 18, 18, 32),
+              sliver: SliverList.builder(
+                itemCount: memories.length,
+                itemBuilder: (context, index) {
+                  return TimelineMemoryCard(
+                    memory: memories[index],
+                    isFirst: index == 0,
+                    isLast: index == memories.length - 1,
+                  );
+                },
+              ),
             ),
-          ),
-        ],
+          ],
         ),
       ),
     );

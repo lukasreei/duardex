@@ -151,30 +151,61 @@ const List<MemoryPost> memories = [
 ];
 
 const String loveLetter = '''
-Oi, Duarda.
+Criei este aplicativo para guardar um pouco da nossa história.
 
-Se você estiver lendo isso, provavelmente está mexendo nesse app que eu fiz.
-E, sendo sincero, ele nunca foi só sobre fotos.
-Foi sobre tentar guardar um pouco do que a gente viveu, porque eu tenho medo de que o tempo faça alguns momentos se perderem.
+Não é sobre datas especiais, nem sobre grandes acontecimentos. É sobre aqueles momentos simples que, sem perceber, acabaram se tornando importantes para mim.
 
-Eu sei que nem sempre sou fácil.
-Às vezes me afasto, fico estranho, calado, complicado... e talvez eu até pareça distante.
-Mas a verdade é que, mesmo nos dias em que não demonstro direito, eu continuo querendo estar perto de você.
+Cada foto aqui carrega uma lembrança. Cada registro representa um momento que achei que valia a pena guardar. Alguns foram engraçados, outros especiais, alguns até difíceis, mas todos fizeram parte da nossa caminhada.
 
-Tem dias em que acordo pensando em ti.
-Pensando em como seria bom te ver, conversar contigo, ouvir tua voz ou simplesmente dividir um pedaço do dia ao teu lado.
-E quando isso não acontece, eu fico olhando nossas fotos, lembrando dos momentos, das conversas, das pequenas coisas que talvez nem tenham parecido importantes na hora... mas que ficaram comigo.
+Você talvez não imagine o quanto marcou a minha vida.
 
-Esse app é meio isso.
-Uma tentativa simples de guardar lembranças de alguém que marcou minha vida de um jeito que talvez eu nunca consiga explicar direito.
-Talvez algumas fotos estejam fora da linha do tempo certinha, mas todas elas estão aqui porque, de algum jeito, fazem parte do que eu quis guardar da gente.
+Existem pessoas que passam pelos nossos dias e deixam apenas memórias. Você deixou mudanças.
 
-Talvez você nunca perceba o quanto sua presença muda meus dias.
-Mas muda.
-E muito.
+Você me fez enxergar coisas que eu havia esquecido, recuperar vontades que eu tinha deixado para trás e encontrar motivos para sorrir em momentos em que eu já não procurava mais por eles.
 
-Então, se algum dia tudo parecer distante demais, eu espero que essas fotos consigam lembrar um pouquinho daquilo que existiu entre nós.
-Porque, mesmo quando eu não consigo dizer, você continua sendo alguém que eu carrego comigo todos os dias.
+E talvez o mais curioso seja que você fez tudo isso sem nem perceber.
 
-Amo mil milhões.
+Ainda lembro de detalhes que provavelmente você já esqueceu.
+
+Ainda lembro das primeiras conversas.
+
+Ainda lembro dos primeiros momentos.
+
+E ainda não esqueci da sua risada no primeiro pedido.
+
+Talvez porque algumas lembranças simplesmente não vão embora.
+
+E existe outra coisa que também não foi embora:
+
+Eu não desisti de você.
+
+Não porque eu espere alguma promessa ou alguma resposta. Mas porque existem pessoas que marcam a nossa vida de uma forma tão especial que simplesmente não faz sentido desistir delas.
+
+E o mais curioso é que, mesmo depois de tudo o que vivemos, ainda sinto que existe muito para descobrir sobre você.
+
+Quero aprender coisas sobre você que ninguém nunca se importou em conhecer.
+
+Quero conhecer seus pensamentos aleatórios, os sonhos que ainda não contou para ninguém, as histórias que guarda, os medos que enfrenta em silêncio e os pequenos detalhes que fazem você ser quem é.
+
+Porque são justamente esses detalhes que tornam alguém inesquecível.
+
+Não sei o que o futuro reserva para nós. Não sei quantas histórias ainda vamos viver ou quantas páginas ainda serão escritas.
+
+Mas sei que, entre todas as pessoas que conheci, você se tornou uma das mais importantes para mim.
+
+E quero que você saiba de uma coisa:
+
+Se precisar de mim, eu estarei lá.
+
+Nos dias bons para comemorar.
+Nos dias difíceis para apoiar.
+E até nos dias comuns, quando tudo o que você precisar for alguém para ouvir.
+
+Este aplicativo não foi feito para impressionar ninguém. Foi feito apenas para guardar aquilo que, para mim, tem valor.
+
+E, entre todas as memórias que existem aqui, a minha favorita sempre será você.
+
+Eu te amo em cada universo.
+
+— Lukas
 ''';
