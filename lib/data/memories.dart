@@ -143,12 +143,45 @@ const List<MemoryPost> memories = [
     description: 'to lindao pae, e tu nql pique de sempre',
   ),
   MemoryPost(
-    imagePath: 'assets/memories/img_12.png',
+    imagePath: 'assets/memories/redeuniesp.png',
     date: '09/06/2026',
     title: 'Ainda aqui',
     description: 'boyerrr, akakak gostei dessa, alias o dia foi bommm',
   ),
 ];
+
+const List<MemoryPost> videoMemories = [
+  MemoryPost(
+    imagePath: 'assets/icons (2).jpg',
+    videoPath: 'assets/video/11dejulho.mp4',
+    date: '11 de julho',
+    title: '11 de julho',
+    description: 'Um pedacinho desse dia guardado em movimento.',
+  ),
+  MemoryPost(
+    imagePath: 'assets/icons (2).jpg',
+    videoPath: 'assets/video/16denovembro.mp4',
+    date: '16 de novembro',
+    title: '16 de novembro',
+    description: 'Uma lembranca que merecia continuar viva no feed.',
+  ),
+  MemoryPost(
+    imagePath: 'assets/icons (2).jpg',
+    videoPath: 'assets/video/7dedezembro.mp4',
+    date: '7 de dezembro',
+    title: '7 de dezembro',
+    description: 'Mais um daqueles momentos bons de rever.',
+  ),
+  MemoryPost(
+    imagePath: 'assets/icons (2).jpg',
+    videoPath: 'assets/video/brizola.mp4',
+    date: 'Nossa historia',
+    title: 'Brizola',
+    description: 'Memoria em movimento, do nosso jeito.',
+  ),
+];
+
+const List<MemoryPost> feedMemories = [...memories, ...videoMemories];
 
 const String loveLetter = '''
 Criei este aplicativo para guardar um pouco da nossa história.

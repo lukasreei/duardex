@@ -115,7 +115,7 @@ class _FeedPage extends StatelessWidget {
             SliverPadding(
               padding: const EdgeInsets.fromLTRB(14, 10, 14, 24),
               sliver: SliverList.separated(
-                itemCount: memories.length,
+                itemCount: feedMemories.length,
                 separatorBuilder: (_, __) => const SizedBox(height: 18),
                 itemBuilder: (context, index) {
                   return TweenAnimationBuilder<double>(
@@ -131,7 +131,7 @@ class _FeedPage extends StatelessWidget {
                         ),
                       );
                     },
-                    child: MemoryPostCard(memory: memories[index]),
+                    child: MemoryPostCard(memory: feedMemories[index]),
                   );
                 },
               ),
