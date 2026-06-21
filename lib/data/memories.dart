@@ -11,16 +11,28 @@ const List<MemoryPost> memories = [
   MemoryPost(
     imagePath: 'assets/memories/foto2.png',
     date: '28/04/2024',
-    title: 'Primeiro abrigo',
+    title: 'calls aleatorias',
     description:
-        'A conversa ficou leve, o tempo passou diferente e a vida ganhou aquele brilho bonito de quando alguem chega devagar.',
+        'Com o tempo, fomos nos aproximando e do nada estavamos fazendo call aleatoria para falar de qualquer coisa, geralmente "ridiculaizar" williams e sua perseguição',
+  ),
+  MemoryPost(
+    imagePath: 'assets/onibusubtech.jpeg',
+    date: '11 de julho de 2024',
+    title: 'coragem e confianca em min kkkkkkk',
+    description: 'tu virada indo para unipe cmg sem nem saber se eu ia te sequestrar',
+  ),
+  MemoryPost(
+    imagePath: 'assets/melhormilkshake.jpeg',
+    date: '11 de julho de 2024',
+    title: 'O melhor milkshake',
+    description: 'lhe fiz o favor de apresentar o melhor milkshake de morango da sua vida',
   ),
   MemoryPost(
     imagePath: 'assets/memories/foto3.png',
     date: '19/07/2024',
-    title: 'Nosso jeito',
+    title: 'busao rumo a jampa',
     description:
-        'Entre risadas, detalhes e pequenos planos, fomos criando um lugar so nosso dentro dos dias comuns.',
+        'boy, em julho nos foi para jampa papo de umas 5 vezes kkk foi bom',
   ),
   MemoryPost(
     imagePath: 'assets/memories/foto4.png',
@@ -49,6 +61,12 @@ const List<MemoryPost> memories = [
     title: 'Entre nos dois',
     description:
         'Tem coisa que nao precisa de muito barulho para ser especial. Bastou acontecer com a gente.',
+  ),
+  MemoryPost(
+    imagePath: 'assets/acaizin.png',
+    date: '15 de julho de 2025',
+    title: 'Acaizin',
+    description: 'boy, vamo tomar açai dnv, nmrl kkkk e tem os audios de byanka que nesse dia mds kkkkk',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_1.png',
@@ -83,6 +101,12 @@ const List<MemoryPost> memories = [
     title: 'Nosso carinho',
     description:
         'O tempo foi passando e deixando claro que algumas presencas viram casa dentro da gente.',
+  ),
+  MemoryPost(
+    imagePath: 'assets/sailormoon.jpeg',
+    date: '06 de outubro de 2025',
+    title: 'Sailor Moon',
+    description: 'porque na quarta você veste rosa',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_5.png',
@@ -149,18 +173,6 @@ const List<MemoryPost> memories = [
     description: 'boyerrr, akakak gostei dessa, alias o dia foi bommm',
   ),
   MemoryPost(
-    imagePath: 'assets/10defevereiro.jpeg',
-    date: '10 de fevereiro',
-    title: 'Uma chamada para guardar',
-    description: 'Mesmo pela tela, ainda era um momento nosso.',
-  ),
-  MemoryPost(
-    imagePath: 'assets/acaizin.png',
-    date: 'Nossa historia',
-    title: 'Acaizin',
-    description: 'Um momento simples, leve e com a nossa cara.',
-  ),
-  MemoryPost(
     imagePath: 'assets/bracos.jpeg',
     date: 'Nossa historia',
     title: 'Do seu jeitinho',
@@ -171,24 +183,6 @@ const List<MemoryPost> memories = [
     date: 'Nossa historia',
     title: 'Nos dois',
     description: 'Um sorriso, uma foto e mais uma memoria boa.',
-  ),
-  MemoryPost(
-    imagePath: 'assets/melhormilkshake.jpeg',
-    date: 'Nossa historia',
-    title: 'O melhor milkshake',
-    description: 'Porque ate os momentos pequenos ficam especiais com voce.',
-  ),
-  MemoryPost(
-    imagePath: 'assets/onibusubtech.jpeg',
-    date: 'Nossa historia',
-    title: 'Caminho da Ubtech',
-    description: 'Entre um caminho e outro, mais uma lembranca guardada.',
-  ),
-  MemoryPost(
-    imagePath: 'assets/sailormoon.jpeg',
-    date: 'Nossa historia',
-    title: 'Sailor Moon',
-    description: 'Bonita do seu jeito, como sempre.',
   ),
   MemoryPost(
     imagePath: 'assets/shushiemksa2.jpeg',
