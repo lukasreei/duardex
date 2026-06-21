@@ -3,6 +3,8 @@ import '../models/memory_post.dart';
 const List<MemoryPost> memories = [
   MemoryPost(
     imagePath: 'assets/memories/foto1.png',
+    audioPath: 'assets/audio/yellow.mpeg',
+    audioStart: Duration(seconds: 32),
     date: '12 de março de 2024',
     title: 'O comeco',
     description:
@@ -19,26 +21,29 @@ const List<MemoryPost> memories = [
     imagePath: 'assets/bracos.jpeg',
     date: '04 de junho de 2024',
     title: 'muito interessante a palestra',
-    description: 'clarice apresentando a palestra, voce correndo de williams e todos querendo matar o williams',
+    description:
+        'clarice apresentando a palestra, voce correndo de williams e todos querendo matar o williams',
   ),
   MemoryPost(
     imagePath: 'assets/onibusubtech.jpeg',
     date: '11 de julho de 2024',
     title: 'coragem e confianca em min kkkkkkk',
-    description: 'tu virada indo para unipe cmg sem nem saber se eu ia te sequestrar',
+    description:
+        'tu virada indo para unipe cmg sem nem saber se eu ia te sequestrar',
   ),
   MemoryPost(
     imagePath: 'assets/melhormilkshake.jpeg',
     date: '11 de julho de 2024',
     title: 'O melhor milkshake',
-    description: 'lhe fiz o favor de apresentar o melhor milkshake de morango da sua vida',
+    description:
+        'lhe fiz o favor de apresentar o melhor milkshake de morango da sua vida',
   ),
   MemoryPost(
     imagePath: 'assets/memories/foto5.png',
     date: '11 de junho de 2024',
     title: 'Ate hoje',
     description:
-    'Tudo que vivemos trouxe a gente ate aqui. E aqui ainda parece um comeco bonito.',
+        'Tudo que vivemos trouxe a gente ate aqui. E aqui ainda parece um comeco bonito.',
   ),
   MemoryPost(
     imagePath: 'assets/memories/foto3.png',
@@ -58,10 +63,13 @@ const List<MemoryPost> memories = [
     imagePath: 'assets/flutter.png',
     date: '02 de novembro de 2024',
     title: 'tinha que tirar uma boa',
-    description: 'boyer, tem momentos que nem conseguimos explicar, esse dia teve varios desses momentos..',
+    description:
+        'boyer, tem momentos que nem conseguimos explicar, esse dia teve varios desses momentos..',
   ),
   MemoryPost(
     imagePath: 'assets/memories/image.png',
+    audioPath: 'assets/audio/tentavir.mpeg',
+    audioStart: Duration(minutes: 2, seconds: 36),
     date: '19 de fevereiro de 2025',
     title: 'Um dia guardado',
     description:
@@ -78,7 +86,8 @@ const List<MemoryPost> memories = [
     imagePath: 'assets/acaizin.png',
     date: '15 de julho de 2025',
     title: 'Acaizin',
-    description: 'boy, vamo tomar açai dnv, nmrl kkkk e tem os audios de byanka que nesse dia mds kkkkk',
+    description:
+        'boy, vamo tomar açai dnv, nmrl kkkk e tem os audios de byanka que nesse dia mds kkkkk',
   ),
   MemoryPost(
     imagePath: 'assets/sushiemksa.jpeg',
@@ -88,6 +97,8 @@ const List<MemoryPost> memories = [
   ),
   MemoryPost(
     imagePath: 'assets/shushiemksa2.jpeg',
+    audioPath: 'assets/audio/voce nao amaninguem.mpeg',
+    audioStart: Duration(seconds: 59),
     date: '18 de julho de 2025',
     title: 'marcando',
     description: 'particulamente, gosto dessa foto',
@@ -108,6 +119,8 @@ const List<MemoryPost> memories = [
 
   MemoryPost(
     imagePath: 'assets/img_2.png',
+    audioPath: 'assets/audio/deixe me ir].mpeg',
+    audioStart: Duration(minutes: 2, seconds: 25),
     date: '08 de agosto de 2025',
     title: 'melhor foto akaka',
     description:
@@ -140,10 +153,12 @@ const List<MemoryPost> memories = [
   ),
   MemoryPost(
     imagePath: 'assets/1do12.jpeg',
+    audioPath: 'assets/audio/aqueles olhos.mpeg',
+    audioStart: Duration(seconds: 52),
     date: '01 de dezembro de 2025',
     title: 'Te Amo  loirinha',
     description:
-    'Talvez eu tenha entregado as flores pelo motivo errado. Elas foram um pedido de desculpas, mas eu gostaria que tivessem sido entregues apenas como uma demonstração de amor. Não me arrependo do gesto; só queria que ele tivesse acontecido em circunstâncias diferentes, como um simples "eu te a..."',
+        'Talvez eu tenha entregado as flores pelo motivo errado. Elas foram um pedido de desculpas, mas eu gostaria que tivessem sido entregues apenas como uma demonstração de amor. Não me arrependo do gesto; só queria que ele tivesse acontecido em circunstâncias diferentes, como um simples "eu te a..."',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_4.png',

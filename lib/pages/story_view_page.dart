@@ -1,5 +1,6 @@
 import 'dart:math' as math;
 
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
 import '../models/memory_post.dart';
@@ -26,6 +27,7 @@ class _StoryViewPageState extends State<StoryViewPage>
 
   late final AnimationController _progressController;
   late final AnimationController _dragResetController;
+  late final AudioPlayer _audioPlayer;
   late int _currentIndex;
   double _dragOffset = 0;
   double _dragResetStart = 0;
@@ -36,6 +38,7 @@ class _StoryViewPageState extends State<StoryViewPage>
   void initState() {
     super.initState();
     _currentIndex = widget.initialIndex.clamp(0, widget.memories.length - 1);
+    _audioPlayer = AudioPlayer();
     _progressController = AnimationController(
       vsync: this,
       duration: _storyDuration,
@@ -52,13 +55,29 @@ class _StoryViewPageState extends State<StoryViewPage>
           });
         });
     _progressController.forward();
+    _playCurrentStoryAudio();
   }
 
   @override
   void dispose() {
     _progressController.dispose();
     _dragResetController.dispose();
+    _audioPlayer.dispose();
     super.dispose();
+  }
+
+  Future<void> _playCurrentStoryAudio() async {
+    await _audioPlayer.stop();
+    final audioPath = _memory.audioPath;
+    if (audioPath == null) return;
+
+    final assetPath = audioPath.startsWith('assets/')
+        ? audioPath.substring('assets/'.length)
+        : audioPath;
+    await _audioPlayer.play(
+      AssetSource(assetPath),
+      position: _memory.audioStart,
+    );
   }
 
   void _handleProgressStatus(AnimationStatus status) {
@@ -71,6 +90,7 @@ class _StoryViewPageState extends State<StoryViewPage>
     if (index < 0 || index >= widget.memories.length) return;
     setState(() => _currentIndex = index);
     _progressController.forward(from: 0);
+    _playCurrentStoryAudio();
   }
 
   void _nextStory() {
@@ -86,6 +106,7 @@ class _StoryViewPageState extends State<StoryViewPage>
       _showStory(_currentIndex - 1);
     } else {
       _progressController.forward(from: 0);
+      _playCurrentStoryAudio();
     }
   }
 
@@ -101,6 +122,7 @@ class _StoryViewPageState extends State<StoryViewPage>
   void _handleDragStart(DragStartDetails details) {
     _dragResetController.stop();
     _progressController.stop();
+    _audioPlayer.pause();
   }
 
   void _handleDragUpdate(DragUpdateDetails details) {
@@ -117,12 +139,14 @@ class _StoryViewPageState extends State<StoryViewPage>
     _dragResetStart = _dragOffset;
     _dragResetController.forward(from: 0);
     _progressController.forward();
+    _audioPlayer.resume();
   }
 
   void _handleDragCancel() {
     _dragResetStart = _dragOffset;
     _dragResetController.forward(from: 0);
     _progressController.forward();
+    _audioPlayer.resume();
   }
 
   @override

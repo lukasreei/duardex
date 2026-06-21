@@ -5,6 +5,8 @@ class MemoryPost {
     required this.title,
     required this.description,
     this.videoPath,
+    this.audioPath,
+    this.audioStart = Duration.zero,
   });
 
   final String imagePath;
@@ -12,6 +14,8 @@ class MemoryPost {
   final String title;
   final String description;
   final String? videoPath;
+  final String? audioPath;
+  final Duration audioStart;
 
   bool get isVideo => videoPath != null;
 }
