@@ -24,7 +24,7 @@ class LunaBottomNav extends StatelessWidget {
         NavigationDestination(
           icon: Icon(Icons.home_outlined),
           selectedIcon: Icon(Icons.home_rounded),
-          label: 'Inicio',
+          label: 'Início',
         ),
         NavigationDestination(
           icon: Icon(Icons.timeline_outlined),

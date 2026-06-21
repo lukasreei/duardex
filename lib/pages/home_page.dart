@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
                           NavigationRailDestination(
                             icon: Icon(Icons.home_outlined),
                             selectedIcon: Icon(Icons.home_rounded),
-                            label: Text('Inicio'),
+                            label: Text('Início'),
                           ),
                           NavigationRailDestination(
                             icon: Icon(Icons.timeline_outlined),
@@ -98,7 +98,7 @@ class _FeedPage extends StatelessWidget {
             SliverAppBar(
               pinned: true,
               title: const Text(
-                'Luna',
+                'LUNA',
                 style: TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.w800,

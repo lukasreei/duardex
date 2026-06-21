@@ -16,8 +16,8 @@ void main() {
   ) async {
     await tester.pumpWidget(const LunaApp());
 
-    expect(find.text('Luna'), findsOneWidget);
-    expect(find.text('O comeco'), findsWidgets);
+    expect(find.text('LUNA'), findsOneWidget);
+    expect(find.text('O começo'), findsWidgets);
   });
 
   for (final size in <Size>[
@@ -43,6 +43,16 @@ void main() {
       await tester.pumpAndSettle();
 
       expect(find.text('Linha do tempo'), findsOneWidget);
+      expect(tester.takeException(), isNull);
+
+      await tester.tap(find.text('Carta'));
+      await tester.pumpAndSettle();
+
+      expect(find.text('Para Você,'), findsOneWidget);
+      expect(
+        find.textContaining('Eu te amo em cada universo.'),
+        findsOneWidget,
+      );
       expect(tester.takeException(), isNull);
     });
   }

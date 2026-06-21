@@ -13,7 +13,7 @@ class LunaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Luna',
+      title: 'LUNA',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,

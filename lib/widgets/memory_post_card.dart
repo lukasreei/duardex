@@ -89,7 +89,7 @@ class _MemoryPostCardState extends State<MemoryPostCard> {
                           ),
                           SizedBox(width: 4),
                           Text(
-                            'VIDEO',
+                            'VÍDEO',
                             style: TextStyle(
                               color: AppColors.secondary,
                               fontSize: 10,
@@ -127,7 +127,7 @@ class _MemoryPostCardState extends State<MemoryPostCard> {
                   Row(
                     children: [
                       IconButton(
-                        tooltip: 'Curtir memoria',
+                        tooltip: 'Curtir memória',
                         onPressed: () => setState(() => _liked = !_liked),
                         icon: AnimatedSwitcher(
                           duration: const Duration(milliseconds: 220),

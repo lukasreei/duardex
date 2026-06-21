@@ -6,30 +6,30 @@ const List<MemoryPost> memories = [
     audioPath: 'assets/audio/yellow.mpeg',
     audioStart: Duration(seconds: 32),
     date: '12 de março de 2024',
-    title: 'O comeco',
+    title: 'O começo',
     description:
-        'Foi aqui que tudo comecou de alguma forma. Um instante simples que, olhando hoje, parecia guardar um mundo inteiro.',
+        'Foi aqui que tudo começou de alguma forma. Um instante simples que, olhando hoje, parecia guardar um mundo inteiro.',
   ),
   MemoryPost(
     imagePath: 'assets/memories/foto2.png',
     date: '28 de abril de 2024',
-    title: 'calls aleatorias',
+    title: 'calls aleatórias',
     description:
-        'Com o tempo, fomos nos aproximando e do nada estavamos fazendo call aleatoria para falar de qualquer coisa, geralmente "ridiculaizar" williams e sua perseguição',
+        'Com o tempo, fomos nos aproximando e do nada estávamos fazendo call aleatória para falar de qualquer coisa, geralmente "ridicularizar" Williams e sua perseguição',
   ),
   MemoryPost(
     imagePath: 'assets/bracos.jpeg',
     date: '04 de junho de 2024',
     title: 'muito interessante a palestra',
     description:
-        'clarice apresentando a palestra, voce correndo de williams e todos querendo matar o williams',
+        'Clarice apresentando a palestra, você correndo de Williams e todos querendo matar o Williams',
   ),
   MemoryPost(
     imagePath: 'assets/onibusubtech.jpeg',
     date: '11 de julho de 2024',
-    title: 'coragem e confianca em min kkkkkkk',
+    title: 'coragem e confiança em mim kkkkkkk',
     description:
-        'tu virada indo para unipe cmg sem nem saber se eu ia te sequestrar',
+        'tu virada indo para UNIPÊ cmg sem nem saber se eu ia te sequestrar',
   ),
   MemoryPost(
     imagePath: 'assets/melhormilkshake.jpeg',
@@ -41,53 +41,53 @@ const List<MemoryPost> memories = [
   MemoryPost(
     imagePath: 'assets/memories/foto5.png',
     date: '11 de junho de 2024',
-    title: 'Ate hoje',
+    title: 'cinemasss',
     description:
-        'Tudo que vivemos trouxe a gente ate aqui. E aqui ainda parece um comeco bonito.',
+        'eu tava meio perdido, mas tinha que demostrar onde andar',
   ),
   MemoryPost(
     imagePath: 'assets/memories/foto3.png',
     date: '19 de julho de 2024',
-    title: 'busao rumo a jampa',
+    title: 'busão rumo a Jampa',
     description:
-        'boy, em julho nos foi para jampa papo de umas 5 vezes kkk foi bom',
+        'boy, em julho nós foi para Jampa papo de umas 5 vezes kkk foi bom',
   ),
   MemoryPost(
     imagePath: 'assets/memories/foto4.png',
     date: '02 de novembro de 2024',
-    title: 'uniesp',
+    title: 'UNIESP',
     description:
-        'Tem lembranca que parece luz acesa: mesmo quando a noite chega, ela continua ali, quieta, cuidando de tudo.',
+        'Tem lembrança que parece luz acesa: mesmo quando a noite chega, ela continua ali, quieta, cuidando de tudo.',
   ),
   MemoryPost(
     imagePath: 'assets/flutter.png',
     date: '02 de novembro de 2024',
     title: 'tinha que tirar uma boa',
     description:
-        'boyer, tem momentos que nem conseguimos explicar, esse dia teve varios desses momentos..',
+        'boyer, tem momentos que nem conseguimos explicar, esse dia teve vários desses momentos...',
   ),
   MemoryPost(
     imagePath: 'assets/memories/image.png',
     audioPath: 'assets/audio/tentavir.mpeg',
     audioStart: Duration(minutes: 2, seconds: 36),
     date: '19 de fevereiro de 2025',
-    title: 'Um dia guardado',
+    title: 'que dia ein',
     description:
-        'Daqueles momentos que parecem pequenos por fora, mas ficam enormes quando a saudade passa para visitar.',
+        'aqui eu ja tinha me apaixonado, ja tinha era fdd foi tudo, arriado os quatro pneu',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img.png',
     date: '08 de março de 2025',
-    title: 'Entre nos dois',
+    title: 'algum role aleatorio',
     description:
-        'Tem coisa que nao precisa de muito barulho para ser especial. Bastou acontecer com a gente.',
+        'eu nem lembro oq foi, só foi',
   ),
   MemoryPost(
     imagePath: 'assets/acaizin.png',
     date: '15 de julho de 2025',
     title: 'Acaizin',
     description:
-        'boy, vamo tomar açai dnv, nmrl kkkk e tem os audios de byanka que nesse dia mds kkkkk',
+        'boy, vamo tomar açaí dnv, nmrl kkkk e tem os áudios de Byanka que nesse dia mds kkkkk',
   ),
   MemoryPost(
     imagePath: 'assets/sushiemksa.jpeg',
@@ -97,11 +97,11 @@ const List<MemoryPost> memories = [
   ),
   MemoryPost(
     imagePath: 'assets/shushiemksa2.jpeg',
-    audioPath: 'assets/audio/voce nao amaninguem.mpeg',
+    audioPath: 'assets/audio/voce_nao_ama_ninguem.mpeg',
     audioStart: Duration(seconds: 59),
     date: '18 de julho de 2025',
     title: 'marcando',
-    description: 'particulamente, gosto dessa foto',
+    description: 'particularmente, gosto dessa foto',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_1.png',
@@ -114,17 +114,17 @@ const List<MemoryPost> memories = [
     date: '12 de junho de 2025',
     title: 'Nosso carinho',
     description:
-        'O tempo foi passando e deixando claro que algumas presencas viram casa dentro da gente.',
+        'O tempo foi passando e deixando claro que algumas presenças viram casa dentro da gente.',
   ),
 
   MemoryPost(
     imagePath: 'assets/img_2.png',
-    audioPath: 'assets/audio/deixe me ir].mpeg',
+    audioPath: 'assets/audio/deixe_me_ir.mpeg',
     audioStart: Duration(minutes: 2, seconds: 25),
     date: '08 de agosto de 2025',
     title: 'melhor foto akaka',
     description:
-        'Mais um capitulo simples e bonito, desses que a memoria escolhe guardar com cuidado.',
+        'Mais um capítulo simples e bonito, desses que a memória escolhe guardar com cuidado.',
   ),
   MemoryPost(
     imagePath: 'assets/082025.png',
@@ -132,13 +132,7 @@ const List<MemoryPost> memories = [
     title: 'só gosto dela',
     description: 'essa aq tem nem oq falar akakak esse dia foi top',
   ),
-  MemoryPost(
-    imagePath: 'assets/memories/img_2.png',
-    date: '11 de agosto de 2025',
-    title: 'Nosso carinho',
-    description:
-        'O tempo foi passando e deixando claro que algumas presencas viram casa dentro da gente.',
-  ),
+
   MemoryPost(
     imagePath: 'assets/sailormoon.jpeg',
     date: '06 de outubro de 2025',
@@ -148,15 +142,15 @@ const List<MemoryPost> memories = [
   MemoryPost(
     imagePath: 'assets/memories/img_5.png',
     date: '11 de outubro de 2025',
-    title: 'Leveza e oque diz essa foto akakak',
-    description: 'imprescritivel',
+    title: 'Leveza é o que diz essa foto akakak',
+    description: 'indescritível',
   ),
   MemoryPost(
     imagePath: 'assets/1do12.jpeg',
-    audioPath: 'assets/audio/aqueles olhos.mpeg',
+    audioPath: 'assets/audio/aqueles_olhos.mpeg',
     audioStart: Duration(seconds: 52),
     date: '01 de dezembro de 2025',
-    title: 'Te Amo  loirinha',
+    title: 'Te amo, loirinha',
     description:
         'Talvez eu tenha entregado as flores pelo motivo errado. Elas foram um pedido de desculpas, mas eu gostaria que tivessem sido entregues apenas como uma demonstração de amor. Não me arrependo do gesto; só queria que ele tivesse acontecido em circunstâncias diferentes, como um simples "eu te a..."',
   ),
@@ -171,14 +165,14 @@ const List<MemoryPost> memories = [
     date: '25 de janeiro de 2025',
     title: 'Do nosso jeito',
     description:
-        'O melhor de algumas lembrancas e perceber que elas tem a nossa cara: simples, sinceras e cheias de carinho.',
+        'O melhor de algumas lembranças é perceber que elas têm a nossa cara: simples, sinceras e cheias de carinho.',
   ),
 
   MemoryPost(
     imagePath: 'assets/memories/img_6.png',
     date: '25 de janeiro de 2025',
     title: 'Mais um pedacinho de pizza',
-    description: 'fatidico dia que apresentei os dois meliantes',
+    description: 'fatídico dia que apresentei os dois meliantes',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_8.png',
@@ -190,26 +184,26 @@ const List<MemoryPost> memories = [
     imagePath: 'assets/memories/img_9.png',
     date: '18 de fevereiro de 2026',
     title: 'Luz de fim de dia',
-    description: 'cafe da manhã de niver',
+    description: 'café da manhã de niver',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_10.png',
     date: '18 de fevereiro de 2026',
-    title: 'FELIZ ANIVERSARIOOOO',
+    title: 'FELIZ ANIVERSÁRIOOOO',
     description:
-        'Esse foi de longe um dos momentos que mais aguardei, poder comemorar seu aniversaio ao seu lado, foi algo indescritivel, que venha muitos proximos anivesarios',
+        'Esse foi de longe um dos momentos que mais aguardei: poder comemorar seu aniversário ao seu lado. Foi algo indescritível, que venham muitos próximos aniversários',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_11.png',
     date: '09 de junho de 2026',
     title: 'mais um meetup',
-    description: 'to lindao pae, e tu nql pique de sempre',
+    description: 'tô lindão pae, e tu nql pique de sempre',
   ),
   MemoryPost(
     imagePath: 'assets/memories/redeuniesp.png',
     date: '09 de junho de 2026',
     title: 'Ainda aqui',
-    description: 'boyerrr, akakak gostei dessa, alias o dia foi bommm',
+    description: 'boyerrr, akakak gostei dessa, aliás o dia foi bommm',
   ),
 ];
 
@@ -217,38 +211,39 @@ const List<MemoryPost> videoMemories = [
   MemoryPost(
     imagePath: 'assets/icons (2).jpg',
     videoPath: 'assets/video/11dejulho.mp4',
-    date: '11 de julho',
-    title: '11 de julho',
-    description: 'Um pedacinho desse dia guardado em movimento.',
-  ),
-  MemoryPost(
-    imagePath: 'assets/icons (2).jpg',
-    videoPath: 'assets/video/16denovembro.mp4',
-    date: '16 de novembro',
-    title: '16 de novembro',
-    description: 'Uma lembranca que merecia continuar viva no feed.',
-  ),
-  MemoryPost(
-    imagePath: 'assets/icons (2).jpg',
-    videoPath: 'assets/video/7dedezembro.mp4',
-    date: '7 de dezembro',
-    title: '7 de dezembro',
-    description: 'Mais um daqueles momentos bons de rever.',
+    date: '11 de julho de 2024',
+    title: 'rumo ubtech',
+    description: 'tu virada.',
   ),
   MemoryPost(
     imagePath: 'assets/icons (2).jpg',
     videoPath: 'assets/video/brizola.mp4',
-    date: 'Nossa historia',
+    date: 'Nossa história',
     title: 'Brizola',
-    description: 'Memoria em movimento, do nosso jeito.',
+    description: 'DO NEIDA TU NA RUA',
   ),
   MemoryPost(
     imagePath: 'assets/icons (2).jpg',
     videoPath: 'assets/video/bemdemonio.mp4',
-    date: 'Nossa historia',
+    date: 'Nossa história',
     title: 'Bem demonio',
-    description: 'Mais um momento nosso guardado para sempre.',
+    description: 'palestras chatas',
   ),
+  MemoryPost(
+    imagePath: 'assets/icons (2).jpg',
+    videoPath: 'assets/video/16denovembro.mp4',
+    date: '16 de novembro de 2025',
+    title: 'praiou',
+    description: 'praia e treta',
+  ),
+  MemoryPost(
+    imagePath: 'assets/icons (2).jpg',
+    videoPath: 'assets/video/7dedezembro.mp4',
+    date: '7 de dezembro de 2025',
+    title: 'niver do capitão jhon',
+    description: 'aprendendo andar de motocas',
+  ),
+
 ];
 
 const List<MemoryPost> feedMemories = [...memories, ...videoMemories];
@@ -277,7 +272,7 @@ Ainda lembro dos primeiros momentos.
 E ainda não esqueci da sua risada no primeiro pedido...
 
 Talvez porque algumas lembranças simplesmente não vão embora
-ou pq não da para esquecer mesmo de tu rindo da situação akakaka
+ou pq não dá para esquecer mesmo de tu rindo da situação akakaka
 
 E existe outra coisa que também não foi embora:
 
