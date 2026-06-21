@@ -3,14 +3,14 @@ import '../models/memory_post.dart';
 const List<MemoryPost> memories = [
   MemoryPost(
     imagePath: 'assets/memories/foto1.png',
-    date: '12/03/2024',
+    date: '12 de março de 2024',
     title: 'O comeco',
     description:
         'Foi aqui que tudo comecou de alguma forma. Um instante simples que, olhando hoje, parecia guardar um mundo inteiro.',
   ),
   MemoryPost(
     imagePath: 'assets/memories/foto2.png',
-    date: '28/04/2024',
+    date: '28 de abril de 2024',
     title: 'calls aleatorias',
     description:
         'Com o tempo, fomos nos aproximando e do nada estavamos fazendo call aleatoria para falar de qualquer coisa, geralmente "ridiculaizar" williams e sua perseguição',
@@ -35,41 +35,41 @@ const List<MemoryPost> memories = [
   ),
   MemoryPost(
     imagePath: 'assets/memories/foto5.png',
-    date: '11/06/2024',
+    date: '11 de junho de 2024',
     title: 'Ate hoje',
     description:
     'Tudo que vivemos trouxe a gente ate aqui. E aqui ainda parece um comeco bonito.',
   ),
   MemoryPost(
     imagePath: 'assets/memories/foto3.png',
-    date: '19/07/2024',
+    date: '19 de julho de 2024',
     title: 'busao rumo a jampa',
     description:
         'boy, em julho nos foi para jampa papo de umas 5 vezes kkk foi bom',
   ),
   MemoryPost(
     imagePath: 'assets/memories/foto4.png',
-    date: '02/11/2024',
+    date: '02 de novembro de 2024',
     title: 'uniesp',
     description:
         'Tem lembranca que parece luz acesa: mesmo quando a noite chega, ela continua ali, quieta, cuidando de tudo.',
   ),
   MemoryPost(
     imagePath: 'assets/flutter.png',
-    date: '02/11/2024',
+    date: '02 de novembro de 2024',
     title: 'tinha que tirar uma boa',
     description: 'boyer, tem momentos que nem conseguimos explicar, esse dia teve varios desses momentos..',
   ),
   MemoryPost(
     imagePath: 'assets/memories/image.png',
-    date: '19/02/2025',
+    date: '19 de fevereiro de 2025',
     title: 'Um dia guardado',
     description:
         'Daqueles momentos que parecem pequenos por fora, mas ficam enormes quando a saudade passa para visitar.',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img.png',
-    date: '08/03/2025',
+    date: '08 de março de 2025',
     title: 'Entre nos dois',
     description:
         'Tem coisa que nao precisa de muito barulho para ser especial. Bastou acontecer com a gente.',
@@ -94,13 +94,13 @@ const List<MemoryPost> memories = [
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_1.png',
-    date: '21/11/2025',
+    date: '21 de novembro de 2025',
     title: 'trio',
     description: 'ainda não sei explicar como ela te ama',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_2.png',
-    date: '12/06/2025',
+    date: '12 de junho de 2025',
     title: 'Nosso carinho',
     description:
         'O tempo foi passando e deixando claro que algumas presencas viram casa dentro da gente.',
@@ -108,20 +108,20 @@ const List<MemoryPost> memories = [
 
   MemoryPost(
     imagePath: 'assets/img_2.png',
-    date: '08/08/2025',
+    date: '08 de agosto de 2025',
     title: 'melhor foto akaka',
     description:
         'Mais um capitulo simples e bonito, desses que a memoria escolhe guardar com cuidado.',
   ),
   MemoryPost(
     imagePath: 'assets/082025.png',
-    date: '08/08/2025',
+    date: '08 de agosto de 2025',
     title: 'só gosto dela',
     description: 'essa aq tem nem oq falar akakak esse dia foi top',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_2.png',
-    date: '11/08/2025',
+    date: '11 de agosto de 2025',
     title: 'Nosso carinho',
     description:
         'O tempo foi passando e deixando claro que algumas presencas viram casa dentro da gente.',
@@ -134,7 +134,7 @@ const List<MemoryPost> memories = [
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_5.png',
-    date: '11/10/2025',
+    date: '11 de outubro de 2025',
     title: 'Leveza e oque diz essa foto akakak',
     description: 'imprescritivel',
   ),
@@ -147,13 +147,13 @@ const List<MemoryPost> memories = [
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_4.png',
-    date: '21/12/2025',
+    date: '21 de dezembro de 2025',
     title: 'tava linda viss',
     description: 'milkshake de sempre',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_7.png',
-    date: '25/01/2025',
+    date: '25 de janeiro de 2025',
     title: 'Do nosso jeito',
     description:
         'O melhor de algumas lembrancas e perceber que elas tem a nossa cara: simples, sinceras e cheias de carinho.',
@@ -161,38 +161,38 @@ const List<MemoryPost> memories = [
 
   MemoryPost(
     imagePath: 'assets/memories/img_6.png',
-    date: '25/01/2025',
+    date: '25 de janeiro de 2025',
     title: 'Mais um pedacinho de pizza',
     description: 'fatidico dia que apresentei os dois meliantes',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_8.png',
-    date: '29/01/2026',
+    date: '29 de janeiro de 2026',
     title: 'tava com sdds viss',
     description: 'nem parece que tu ficou sem falar cmg por 3 semanas',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_9.png',
-    date: '18/02/2026',
+    date: '18 de fevereiro de 2026',
     title: 'Luz de fim de dia',
     description: 'cafe da manhã de niver',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_10.png',
-    date: '18/02/2026',
+    date: '18 de fevereiro de 2026',
     title: 'FELIZ ANIVERSARIOOOO',
     description:
         'Esse foi de longe um dos momentos que mais aguardei, poder comemorar seu aniversaio ao seu lado, foi algo indescritivel, que venha muitos proximos anivesarios',
   ),
   MemoryPost(
     imagePath: 'assets/memories/img_11.png',
-    date: '09/06/2026',
+    date: '09 de junho de 2026',
     title: 'mais um meetup',
     description: 'to lindao pae, e tu nql pique de sempre',
   ),
   MemoryPost(
     imagePath: 'assets/memories/redeuniesp.png',
-    date: '09/06/2026',
+    date: '09 de junho de 2026',
     title: 'Ainda aqui',
     description: 'boyerrr, akakak gostei dessa, alias o dia foi bommm',
   ),

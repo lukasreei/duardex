@@ -19,16 +19,20 @@ class StoryStrip extends StatelessWidget {
         scrollDirection: Axis.horizontal,
         itemCount: memories.length,
         separatorBuilder: (_, __) => const SizedBox(width: 14),
-        itemBuilder: (context, index) => _StoryBubble(memory: memories[index]),
+        itemBuilder: (context, index) =>
+            _StoryBubble(memories: memories, index: index),
       ),
     );
   }
 }
 
 class _StoryBubble extends StatelessWidget {
-  const _StoryBubble({required this.memory});
+  const _StoryBubble({required this.memories, required this.index});
 
-  final MemoryPost memory;
+  final List<MemoryPost> memories;
+  final int index;
+
+  MemoryPost get memory => memories[index];
 
   @override
   Widget build(BuildContext context) {
@@ -44,7 +48,7 @@ class _StoryBubble extends StatelessWidget {
                 parent: animation,
                 curve: Curves.easeOut,
               ),
-              child: StoryViewPage(memory: memory),
+              child: StoryViewPage(memories: memories, initialIndex: index),
             ),
           ),
         );
@@ -79,7 +83,7 @@ class _StoryBubble extends StatelessWidget {
                   shape: BoxShape.circle,
                 ),
                 child: Hero(
-                  tag: 'story-${memory.imagePath}',
+                  tag: 'story-$index-${memory.imagePath}',
                   child: CircleAvatar(
                     radius: 30,
                     backgroundImage: AssetImage(memory.imagePath),
