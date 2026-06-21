@@ -148,6 +148,60 @@ const List<MemoryPost> memories = [
     title: 'Ainda aqui',
     description: 'boyerrr, akakak gostei dessa, alias o dia foi bommm',
   ),
+  MemoryPost(
+    imagePath: 'assets/10defevereiro.jpeg',
+    date: '10 de fevereiro',
+    title: 'Uma chamada para guardar',
+    description: 'Mesmo pela tela, ainda era um momento nosso.',
+  ),
+  MemoryPost(
+    imagePath: 'assets/acaizin.png',
+    date: 'Nossa historia',
+    title: 'Acaizin',
+    description: 'Um momento simples, leve e com a nossa cara.',
+  ),
+  MemoryPost(
+    imagePath: 'assets/bracos.jpeg',
+    date: 'Nossa historia',
+    title: 'Do seu jeitinho',
+    description: 'Mais um registro espontaneo que merecia ficar aqui.',
+  ),
+  MemoryPost(
+    imagePath: 'assets/flutter.png',
+    date: 'Nossa historia',
+    title: 'Nos dois',
+    description: 'Um sorriso, uma foto e mais uma memoria boa.',
+  ),
+  MemoryPost(
+    imagePath: 'assets/melhormilkshake.jpeg',
+    date: 'Nossa historia',
+    title: 'O melhor milkshake',
+    description: 'Porque ate os momentos pequenos ficam especiais com voce.',
+  ),
+  MemoryPost(
+    imagePath: 'assets/onibusubtech.jpeg',
+    date: 'Nossa historia',
+    title: 'Caminho da Ubtech',
+    description: 'Entre um caminho e outro, mais uma lembranca guardada.',
+  ),
+  MemoryPost(
+    imagePath: 'assets/sailormoon.jpeg',
+    date: 'Nossa historia',
+    title: 'Sailor Moon',
+    description: 'Bonita do seu jeito, como sempre.',
+  ),
+  MemoryPost(
+    imagePath: 'assets/shushiemksa2.jpeg',
+    date: 'Nossa historia',
+    title: 'Sushi no MKSA',
+    description: 'Uma foto nossa para lembrar de mais um dia bom.',
+  ),
+  MemoryPost(
+    imagePath: 'assets/sushiemksa.jpeg',
+    date: 'Nossa historia',
+    title: 'Nosso sushi',
+    description: 'Comida boa, companhia melhor ainda.',
+  ),
 ];
 
 const List<MemoryPost> videoMemories = [
@@ -178,6 +232,13 @@ const List<MemoryPost> videoMemories = [
     date: 'Nossa historia',
     title: 'Brizola',
     description: 'Memoria em movimento, do nosso jeito.',
+  ),
+  MemoryPost(
+    imagePath: 'assets/icons (2).jpg',
+    videoPath: 'assets/video/bemdemonio.mp4',
+    date: 'Nossa historia',
+    title: 'Bem demonio',
+    description: 'Mais um momento nosso guardado para sempre.',
   ),
 ];
 
