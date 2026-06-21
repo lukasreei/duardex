@@ -274,9 +274,10 @@ Ainda lembro das primeiras conversas.
 
 Ainda lembro dos primeiros momentos.
 
-E ainda não esqueci da sua risada no primeiro pedido.
+E ainda não esqueci da sua risada no primeiro pedido...
 
-Talvez porque algumas lembranças simplesmente não vão embora.
+Talvez porque algumas lembranças simplesmente não vão embora
+ou pq não da para esquecer mesmo de tu rindo da situação akakaka
 
 E existe outra coisa que também não foi embora:
 
@@ -310,5 +311,4 @@ E, entre todas as memórias que existem aqui, a minha favorita sempre será voc�
 
 Eu te amo em cada universo.
 
-— Lukas
 ''';
